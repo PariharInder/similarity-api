@@ -1,8 +1,7 @@
 'use client'
 import { FC } from 'react'
-import { DropdownMenu } from '@/ui/DropdownMenu'
 import { useTheme } from 'next-themes'
-import { DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@radix-ui/react-dropdown-menu'
+import { DropdownMenu, DropdownMenuTrigger, DropdownMenuItem, DropdownMenuContent } from '@/ui/DropdownMenu'
 import Button from '@/ui/Button'
 import Icons from '@/components/ui/Icons'
 
