@@ -32,7 +32,7 @@ export default function Home() {
           </Paragraph>
 
           <div className='relative w-full max-w-xl lg:max-w-3xl lg:left-1/2 aspect-square lg:absolute'>
-          <Image
+            <Image
               priority
               className='img-shadow '
               quality={100}
