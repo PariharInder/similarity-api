@@ -7,13 +7,13 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/DropdownMenu'
-import { Loader2 }  from 'lucide-react'
+import { createApiKey } from '@/helpers/create-api-key'
+import { revokeApiKey } from '@/helpers/revoke-api-key'
+import { Loader2 } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import { FC, useState } from 'react'
-import  Button  from './ui/Button'
+import Button  from './ui/Button'
 import { toast } from './ui/toast'
-import { createApiKey } from '@/helpers/create-api-key'
-import { revokeApiKey } from '@/helpers/revoke-api.key'
 
 interface ApiKeyOptionsProps {
   // passing of entire object not allowed due to date property not being serializable

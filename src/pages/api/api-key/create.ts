@@ -1,4 +1,4 @@
-import { withMethods } from '@/lib/api-middleware/with-methods'
+import { withMethods } from '@/lib/api-middlewares/with-methods'
 import { authOptions } from '@/lib/auth'
 import { db } from '@/lib/db'
 import { CreateApiData } from '@/types/api/key'
